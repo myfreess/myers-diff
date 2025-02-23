@@ -1,0 +1,5 @@
+id: add
+language: moonbit
+rule:
+  pattern: _A + _B
+  kind: binary_expression

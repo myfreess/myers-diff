@@ -1,0 +1,6 @@
+id: dot_call
+language: moonbit
+rule: 
+  pattern: _OBJ\._F(_ARG)
+  kind: dot_apply_expression
+  
