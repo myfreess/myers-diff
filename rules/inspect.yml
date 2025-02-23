@@ -1,0 +1,13 @@
+id: inspect
+language: moonbit
+rule: 
+  all:
+    - kind: apply_expression
+    - has:
+        stopBy: end
+        kind: apply_operator
+        regex: "!"
+    - all:
+      - nthChild: 1
+      - regex: "inspect"
+    

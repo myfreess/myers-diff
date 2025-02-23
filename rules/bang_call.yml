@@ -1,0 +1,8 @@
+id: bang_call
+language: moonbit
+rule: 
+  kind: apply_expression
+  has:
+    stopBy: end
+    kind: apply_operator
+    regex: "!"

@@ -1,0 +1,8 @@
+ruleDirs:
+- ./rules
+
+customLanguages:
+  moonbit:
+      libraryPath: moonbit.so     # path to dynamic library
+      extensions: [mbt]  # file extensions for this language
+      expandoChar: _           # optional char to replace $ in your pattern

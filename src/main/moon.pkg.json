@@ -1,0 +1,14 @@
+{
+  "is-main": true,
+  "import": [
+    { "path": "myfreess/myers-diff/diff", "alias": "diff" },
+    { "path": "Lampese/moonbit-chalk",  "alias": "chalk"},
+    { "path": "moonbitlang/x/sys", "alias": "sys" },
+    { "path": "moonbitlang/x/fs", "alias": "fs"}
+  ],
+  "link": {
+    "native": {
+      "cc": "gcc"
+    }
+  }
+}
